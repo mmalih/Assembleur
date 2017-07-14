@@ -1,0 +1,16 @@
+// charge dans r0 une valeur
+
+ldr r0, =0x22
+
+// charge dans r1 une autre valeur
+
+ldr  r1, = 0x33
+
+
+// Calcule la somme de r0 et r1 et met le résultat dans r3
+
+ADD r3, r0, r1
+
+// Calcule la difference et met le résultat dans r4
+
+CMP r4, r0, r1
